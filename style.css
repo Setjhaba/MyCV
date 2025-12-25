@@ -1,0 +1,16 @@
+ section[id] {
+    scroll-margin-top: 90px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .navbar-nav .nav-link {
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    transform: translateY(2px);
+  }
+
